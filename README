@@ -19,6 +19,7 @@ NOTE: Use the "codec2" or "codec2-dev" depending on which repository
 1/ Listen to Codec 2:
    $ cd codec2
    $ mkdir build_linux
+   $ cd build_linux
    $ cmake ..
    $ make
    $ ./src/c2demo ../raw/hts1a.raw hts1a_c2.raw
